@@ -7,9 +7,17 @@
 	"name": "calm-grass-8fbc",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-11-20",
+	"compatibility_flags": ["nodejs_compat"],
 	"observability": {
 		"enabled": true
-	}
+	},
+	"d1_databases": [
+    {
+      "binding": "auth_db",
+      "database_name": "auth",
+      "database_id": "6bef852d-5918-4da4-aefe-991848dfc300"
+    }
+  ]
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
